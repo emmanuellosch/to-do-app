@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "snowpack": "^3.0.11"
+  },
+  "name": "to-do-app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "rollup": "^2.39.0",
+    "fsevents": "^2.3.2",
+    "is-docker": "^2.1.1",
+    "esbuild": "^0.8.45",
+    "open": "^7.4.0",
+    "is-wsl": "^2.2.0"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuellosch/to-do-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmanuellosch/to-do-app/issues"
+  },
+  "homepage": "https://github.com/emmanuellosch/to-do-app#readme"
+}
