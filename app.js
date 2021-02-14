@@ -20,9 +20,6 @@ function renderTodo(todo) {
     <input id="${todo.id}" type="checkbox"/>
     <label for="${todo.id}" class="tick js-tick"></label>
     <span>${todo.text}</span>
-    <button class="delete-todo js-delete-todo">
-    <svg><use href="#delete-icon"></use></svg>
-    </button>
   `;
 
   if (item) {
@@ -79,7 +76,7 @@ list.addEventListener("click", (event) => {
     toggleDone(itemKey);
   }
 
-  if (event.target.classList.contains("js-delete-todo")) {
+  if (event.target.classList.contains("js-tick")) {
     const itemKey = event.target.parentElement.dataset.key;
     deleteTodo(itemKey);
   }

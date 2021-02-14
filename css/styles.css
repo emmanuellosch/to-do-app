@@ -36,9 +36,16 @@ body {
   opacity: 0.5;
 }
 
-svg {
-  width: 64px;
-  height: 64px;
+.icon {
+  display: inline-block;
+  height: 50px;
+  padding: 10px;
+  margin-left: 50%;
+  margin bottom: 24px;
+}
+
+.fa {
+  vertical-align: middle;
 }
 
 .todo-list {

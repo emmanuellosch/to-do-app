@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do-App</title>
+    <script
+      src="https://kit.fontawesome.com/9426ca41e6.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="snopack.config.js" defer></script>
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="css/styles.css" />
@@ -16,10 +20,14 @@
           Welcome! <br />
           I am your daily ToDo companion
         </h1>
+
+        <div class="icon">
+          <i class="fas fa-tasks fa-2x"></i>
+        </div>
+
         <ul class="todo-list js-todo-list"></ul>
 
         <div class="empty-state">
-          <svg class="checklist-icon"><use href="#checklist-icon"></use></svg>
           <h2 class="empty-state__title">Add what's need to be done today</h2>
         </div>
 
